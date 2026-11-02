@@ -1,0 +1,37 @@
+{
+  "capturedAt": "2026-11-02T09:13:06.741Z",
+  "successfulUrls": [
+    "https://www.greedyadventures.com/experiences/sea-view-skydiving",
+    "https://www.greedyadventures.com/escapes/thailand/pattaya",
+    "https://www.greedyadventures.com/escapes/thailand",
+    "https://www.greedyadventures.com/adventures/skydiving",
+    "https://www.greedyadventures.com/adventures",
+    "https://www.greedyadventures.com/experiences/mount-abu-tandem-skydiving",
+    "https://www.greedyadventures.com/escapes/india/mount-abu",
+    "https://www.greedyadventures.com/escapes/india",
+    "https://www.greedyadventures.com/escapes",
+    "https://www.greedyadventures.com/book",
+    "https://www.greedyadventures.com/contact",
+    "https://www.greedyadventures.com/about",
+    "https://www.greedyadventures.com/cancellations",
+    "https://www.greedyadventures.com/terms",
+    "https://www.greedyadventures.com/privacy",
+    "https://www.greedyadventures.com/blog",
+    "https://www.greedyadventures.com/",
+    "https://www.greedyadventures.com/adventures/paragliding",
+    "https://www.greedyadventures.com/adventures/scuba-diving",
+    "https://www.greedyadventures.com/adventures/snowboarding"
+  ],
+  "failedUrls": [],
+  "knownGaps": [
+    "Pattaya dropzone collapsed accordion FAQs ('best time to visit', 'is the jump different from the more expensive packages', 'can I add video later', 'can I use my own GoPro', 'what should I wear'): answer texts are hidden behind client-side interactive widgets without fallback text on plain fetch.",
+    "Official brochure PDF: None found on website. Handled via clearly-labelled Demo brochure in /public/media/sea-view-skydiving-brochure.pdf.",
+    "Freefall duration inconsistency: Sea View Skydiving page states ~60 seconds; Skydiving overview page states ~45 seconds.",
+    "Dropzone duration inconsistency: Sea View Skydiving page states ~3 hours; Contact FAQ states ~3 to 4 hours."
+  ],
+  "notes": [
+    "Captured 20 sources successfully.",
+    "Failed to capture 0 URLs.",
+    "Generated static data/sources.json to avoid runtime scraping."
+  ]
+}

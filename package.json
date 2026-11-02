@@ -1,0 +1,44 @@
+{
+  "name": "greedy-adventures-skydiving",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "capture": "tsx scripts/capture-sources.ts",
+    "generate-pdf": "tsx scripts/generate-demo-pdf.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^1.1.10",
+    "@ai-sdk/openai": "^1.1.13",
+    "@assistant-ui/react": "^0.15.32",
+    "@assistant-ui/react-ai-sdk": "^1.4.21",
+    "ai": "^4.1.45",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.475.0",
+    "next": "^14.2.24",
+    "pdf-lib": "^1.17.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.3",
+    "tailwind-merge": "^2.6.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.19",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "autoprefixer": "^10.4.20",
+    "cheerio": "^1.0.0",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.24",
+    "postcss": "^8.5.2",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8"
+  }
+}

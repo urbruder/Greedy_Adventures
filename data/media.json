@@ -1,0 +1,33 @@
+[
+  {
+    "id": "sea-view-brochure",
+    "type": "pdf",
+    "title": "Sea View Skydiving Brochure (Demo material)",
+    "url": "/media/sea-view-skydiving-brochure.pdf",
+    "isDemo": true,
+    "available": true,
+    "sourceUrl": "https://www.greedyadventures.com/experiences/sea-view-skydiving",
+    "description": "Comprehensive brochure covering Pattaya jump packages, pricing, safety inclusions, and contact info. Demo material."
+  },
+  {
+    "id": "sea-view-hero-video",
+    "type": "video",
+    "title": "Sea View Skydiving Main Jump Film",
+    "url": "https://www.greedyadventures.com/greedy/films/sea-view-studio-hero.mp4",
+    "isDemo": false,
+    "available": true,
+    "sourceUrl": "https://www.greedyadventures.com/experiences/sea-view-skydiving",
+    "description": "Official 4K jump footage over Pattaya coastline and Gulf of Thailand."
+  },
+  {
+    "id": "mount-abu-hero-video",
+    "type": "video",
+    "title": "Mount Abu Tandem Skydiving Jump Film",
+    "url": "https://www.greedyadventures.com/greedy/films/mount-abu-hero-hd.mp4",
+    "isDemo": false,
+    "available": true,
+    "sourceUrl": "https://www.greedyadventures.com/experiences/mount-abu-tandem-skydiving",
+    "description": "Official tandem jump footage over Mount Abu, Rajasthan."
+  }
+]
+
