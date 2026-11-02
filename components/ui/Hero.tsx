@@ -13,14 +13,15 @@ export const Hero: React.FC<HeroProps> = ({ onOpenChat }) => {
     >
       {/* Stitch Ambient Coastal Aerial Backdrop */}
       <div
-        className="absolute inset-0 bg-cover bg-center opacity-35 scale-105 transition-transform duration-1000 ease-out pointer-events-none"
+        className="absolute inset-0 bg-cover bg-center opacity-85 scale-105 transition-transform duration-1000 ease-out pointer-events-none"
         style={{
           backgroundImage: `url('https://lh3.googleusercontent.com/aida-public/AB6AXuDM0AkGD1gNZx_d1tppqWYlVJj8it3zZ5BwtQ85ExKUviVu5pKyHrfptYcTXwQc4IdrluoBCdUnhRFhARkoe9N7fjvzqH15e8GVAlP_EyFKtXytwVlYszeLACMpXKc-0I-H32KtboUAaih9NuMc_w4ZHHRcHhQh47wK5Ln5BKRDHTwDebXIKmFa2a_TTJGcrSh_w5VWOYQpbMmqSwU6yluS2_wALy0hw79sCb6DyK-x')`,
         }}
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-deep-navy/95 via-deep-navy/85 to-deep-navy/55 pointer-events-none" />
-      <div className="absolute inset-0 bg-gradient-to-t from-deep-navy via-transparent to-transparent pointer-events-none" />
-      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-sky-blue/15 rounded-full blur-3xl pointer-events-none" />
+      {/* Balanced contrast overlay: crisp text on the left, vibrant coastal vista across center and right */}
+      <div className="absolute inset-0 bg-gradient-to-r from-deep-navy/90 via-deep-navy/60 to-deep-navy/20 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-t from-deep-navy/90 via-transparent to-deep-navy/40 pointer-events-none" />
+      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-sky-blue/20 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-sunrise-orange/15 rounded-full blur-3xl pointer-events-none" />
 
       <div className="relative z-10 max-w-[1280px] mx-auto px-6 lg:px-12">
@@ -34,12 +35,12 @@ export const Hero: React.FC<HeroProps> = ({ onOpenChat }) => {
           </div>
 
           {/* Headline */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1] text-pure-white">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1] text-pure-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]">
             Defy Gravity Above the Gulf of Thailand.
           </h1>
 
           {/* Subtitle */}
-          <p className="text-base sm:text-lg text-pure-white/80 max-w-2xl leading-relaxed">
+          <p className="text-base sm:text-lg text-pure-white/90 max-w-2xl leading-relaxed drop-shadow-[0_1px_4px_rgba(0,0,0,0.5)] font-medium">
             Experience an unforgettable 120 mph coastal freefall from 13,000 feet.
             USPA-certified tandem masters, turbine climbs, and panoramic ocean vistas.
             Operated by Dropzone Thailand with flights 365 days a year.
