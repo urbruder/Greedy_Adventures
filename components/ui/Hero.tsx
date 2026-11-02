@@ -11,11 +11,11 @@ export const Hero: React.FC<HeroProps> = ({ onOpenChat }) => {
       id="experience"
       className="relative w-full overflow-hidden bg-deep-navy text-pure-white py-16 md:py-24"
     >
-      {/* Stitch Ambient Coastal Aerial Backdrop */}
+      {/* Ambient Coastal Aerial Tandem Jump Backdrop */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-85 scale-105 transition-transform duration-1000 ease-out pointer-events-none"
         style={{
-          backgroundImage: `url('https://lh3.googleusercontent.com/aida-public/AB6AXuDM0AkGD1gNZx_d1tppqWYlVJj8it3zZ5BwtQ85ExKUviVu5pKyHrfptYcTXwQc4IdrluoBCdUnhRFhARkoe9N7fjvzqH15e8GVAlP_EyFKtXytwVlYszeLACMpXKc-0I-H32KtboUAaih9NuMc_w4ZHHRcHhQh47wK5Ln5BKRDHTwDebXIKmFa2a_TTJGcrSh_w5VWOYQpbMmqSwU6yluS2_wALy0hw79sCb6DyK-x')`,
+          backgroundImage: `url('/images/hero-bg.jpg')`,
         }}
       />
       {/* Balanced contrast overlay: crisp text on the left, vibrant coastal vista across center and right */}
