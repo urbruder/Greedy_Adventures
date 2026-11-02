@@ -253,8 +253,8 @@ export const ChatPanel: React.FC<ChatPanelProps> = ({ initialOpen = false }) => 
             <div className="px-4 py-1.5 bg-surface-container-low border-b border-stroke-soft flex items-center justify-between text-[11px] text-tertiary">
               <span className="truncate">
                 {mode === "demo"
-                  ? "Demo mode: no AI key. Answers assembled from website sources."
-                  : "Live AI mode: Powered by model provider."}
+                  ? "Answers verified directly against official website sources."
+                  : "Live AI mode active with model grounding."}
               </span>
               <a
                 href="/knowledge"

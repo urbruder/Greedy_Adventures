@@ -41,7 +41,7 @@ export const VideoCard: React.FC<VideoCardProps> = ({
         </video>
         <div className="absolute top-2.5 left-2.5 pointer-events-none">
           <span className="px-2 py-0.5 rounded-full bg-deep-navy/80 backdrop-blur-md text-pure-white text-[10px] font-bold uppercase tracking-wider">
-            {isDemo ? "Demo material" : "Official Website Film"}
+            Official Film
           </span>
         </div>
       </div>

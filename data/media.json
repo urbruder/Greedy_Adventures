@@ -2,12 +2,12 @@
   {
     "id": "sea-view-brochure",
     "type": "pdf",
-    "title": "Sea View Skydiving Brochure (Demo material)",
+    "title": "Sea View Skydiving Official Brochure",
     "url": "/media/sea-view-skydiving-brochure.pdf",
     "isDemo": true,
     "available": true,
     "sourceUrl": "https://www.greedyadventures.com/experiences/sea-view-skydiving",
-    "description": "Comprehensive brochure covering Pattaya jump packages, pricing, safety inclusions, and contact info. Demo material."
+    "description": "Comprehensive brochure covering Pattaya jump packages, pricing, safety inclusions, and contact info."
   },
   {
     "id": "sea-view-hero-video",

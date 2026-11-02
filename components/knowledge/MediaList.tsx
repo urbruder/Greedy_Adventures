@@ -36,11 +36,9 @@ export const MediaList: React.FC<MediaListProps> = ({ media }) => {
                     <FileText className="w-4 h-4" />
                   </div>
                   <div className="flex items-center gap-1.5">
-                    {pdf.isDemo && (
-                      <span className="px-2 py-0.5 rounded-full bg-amber-50 text-amber-800 border border-amber-200 text-[10px] font-bold uppercase">
-                        Demo material
-                      </span>
-                    )}
+                    <span className="px-2 py-0.5 rounded-full bg-sky-50 text-sky-800 border border-sky-200 text-[10px] font-bold uppercase">
+                      Brochure
+                    </span>
                     <span
                       className={`px-2 py-0.5 rounded-full text-[10px] font-bold uppercase ${
                         pdf.available

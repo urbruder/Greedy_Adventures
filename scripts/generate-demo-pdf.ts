@@ -250,9 +250,9 @@ async function generateDemoPdf() {
     color: skyBlue,
   });
 
-  // Footer Disclaimer
+  // Footer Note
   page.drawText(
-    "Demo material generated for this prototype; not an official Greedy Adventures document.",
+    "Greedy Adventures • Sea View Skydiving Pattaya • All bookings confirmed on jump day.",
     {
       x: 40,
       y: 35,

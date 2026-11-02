@@ -25,7 +25,7 @@ export default function HomePage() {
         <FaqAccordion />
       </main>
 
-      {/* Footer with Demo Prototype disclaimer */}
+      {/* Footer */}
       <Footer />
 
       {/* Floating Chatbot Assistant */}

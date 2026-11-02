@@ -13,20 +13,20 @@ export const ModeBadge: React.FC<ModeBadgeProps> = ({ mode, className = "", comp
         className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold ${
           mode === "live"
             ? "bg-emerald-500/20 text-emerald-300 border border-emerald-500/40"
-            : "bg-sunrise-orange/20 text-sunrise-orange border border-sunrise-orange/40"
+            : "bg-sky-500/20 text-sky-300 border border-sky-500/40"
         } ${className}`}
         title={
           mode === "live"
-            ? "Live AI mode: Powered by AI SDK model"
-            : "Demo mode: no AI key, answers built directly from website sources"
+            ? "Live AI mode: Powered by AI model"
+            : "Knowledge Base: Answers built directly from official website sources"
         }
       >
         <span
           className={`w-1.5 h-1.5 rounded-full ${
-            mode === "live" ? "bg-emerald-400 animate-pulse" : "bg-sunrise-orange"
+            mode === "live" ? "bg-emerald-400 animate-pulse" : "bg-sky-400"
           }`}
         />
-        <span>{mode === "live" ? "Live AI" : "Demo Mode"}</span>
+        <span>{mode === "live" ? "Live AI" : "Knowledge Base"}</span>
       </span>
     );
   }
@@ -36,18 +36,18 @@ export const ModeBadge: React.FC<ModeBadgeProps> = ({ mode, className = "", comp
       className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-medium ${
         mode === "live"
           ? "bg-emerald-50 text-emerald-800 border border-emerald-200"
-          : "bg-amber-50 text-amber-900 border border-amber-200"
+          : "bg-sky-50 text-sky-900 border border-sky-200"
       } ${className}`}
     >
       <span
         className={`w-2 h-2 rounded-full ${
-          mode === "live" ? "bg-emerald-500 animate-pulse" : "bg-amber-500"
+          mode === "live" ? "bg-emerald-500 animate-pulse" : "bg-sky-500"
         }`}
       />
       <span>
         {mode === "live"
           ? "Live AI: Connected to model provider"
-          : "Demo mode: no AI key, answers built directly from website sources"}
+          : "Knowledge Base: Answers retrieved directly from official website sources"}
       </span>
     </div>
   );

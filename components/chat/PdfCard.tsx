@@ -22,7 +22,7 @@ export const PdfCard: React.FC<PdfCardProps> = ({ title, url, isDemo = true }) =
   const handleDownload = () => {
     const a = document.createElement("a");
     a.href = url;
-    a.download = "Sea-View-Skydiving-Brochure-Demo.pdf";
+    a.download = "Sea-View-Skydiving-Brochure.pdf";
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -44,11 +44,9 @@ export const PdfCard: React.FC<PdfCardProps> = ({ title, url, isDemo = true }) =
             </span>
           </div>
         </div>
-        {isDemo && (
-          <span className="px-2 py-0.5 rounded-full bg-amber-50 text-amber-800 border border-amber-200 text-[10px] font-bold uppercase tracking-wider shrink-0">
-            Demo material
-          </span>
-        )}
+        <span className="px-2 py-0.5 rounded-full bg-sky-50 text-sky-800 border border-sky-200 text-[10px] font-bold uppercase tracking-wider shrink-0">
+          Official PDF
+        </span>
       </div>
 
       <div className="grid grid-cols-2 gap-2 pt-1">

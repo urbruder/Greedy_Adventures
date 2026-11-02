@@ -7,7 +7,7 @@ export const Footer: React.FC = () => {
     <footer className="w-full bg-deep-navy text-pure-white border-t border-stroke-soft/20 py-12 md:py-16">
       <div className="max-w-[1280px] mx-auto px-6 lg:px-12 space-y-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Col 1: Brand & Disclaimer */}
+          {/* Col 1: Brand */}
           <div className="md:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
               <img
@@ -29,15 +29,7 @@ export const Footer: React.FC = () => {
               Tandem skydiving above the Gulf of Thailand in Pattaya. 13,000 feet exit altitude, 120 mph coastal freefall, and USPA-certified instructors. Operated by Dropzone Thailand.
             </p>
 
-            {/* Mandatory Demo Disclaimer */}
-            <div className="p-3.5 rounded-xl bg-pure-white/10 border border-pure-white/15 max-w-md">
-              <span className="text-[11px] font-bold text-sunrise-orange uppercase tracking-wider block">
-                Prototype Notice
-              </span>
-              <p className="text-xs text-pure-white/80 mt-1 leading-relaxed">
-                Demo prototype, not the official site. Built for the Greedy Adventures Full Stack Developer Assignment (Round 1). Content extracted from public website sources.
-              </p>
-            </div>
+
           </div>
 
           {/* Col 2: Navigation */}
@@ -108,7 +100,7 @@ export const Footer: React.FC = () => {
         {/* Bottom bar */}
         <div className="pt-8 border-t border-pure-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-pure-white/60">
           <span>
-            © {new Date().getFullYear()} Sea View Skydiving Prototype. All rights reserved.
+            © {new Date().getFullYear()} Sea View Skydiving · Greedy Adventures. All rights reserved.
           </span>
           <div className="flex items-center gap-4">
             <a

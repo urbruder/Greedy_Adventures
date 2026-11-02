@@ -31,7 +31,7 @@ export default function KnowledgePage() {
               className="inline-flex items-center gap-2 text-xs font-bold text-on-surface-variant hover:text-deep-navy transition-colors"
             >
               <ArrowLeft className="w-4 h-4" />
-              <span>Back to demo</span>
+              <span>Back to Experience</span>
             </Link>
 
             <div className="h-5 w-[1px] bg-stroke-soft hidden sm:block" />
@@ -81,7 +81,7 @@ export default function KnowledgePage() {
                 </span>
               </div>
               <p className="text-sm text-on-surface-variant max-w-2xl">
-                What the assistant can use to answer customer questions. Public website sources and demo media only. Never exposes API keys or private conversations.
+                What the assistant uses to answer customer questions. Verified website knowledge base and media index. Secure and read-only.
               </p>
             </div>
 
@@ -112,7 +112,7 @@ export default function KnowledgePage() {
                 {media.length} Active
               </span>
               <span className="text-[11px] text-tertiary">
-                1 Demo PDF • 2 Real Videos
+                1 PDF Brochure • 2 Official Films
               </span>
             </div>
 
@@ -164,7 +164,7 @@ export default function KnowledgePage() {
       {/* Simple Footer */}
       <footer className="w-full bg-pure-white border-t border-stroke-soft py-6 mt-16 text-center text-xs text-tertiary">
         <p>
-          Greedy Adventures Full Stack Prototype • Read-Only Chatbot Knowledge View
+          Greedy Adventures • Read-Only Chatbot Knowledge View
         </p>
       </footer>
     </div>
